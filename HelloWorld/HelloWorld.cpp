@@ -9,7 +9,7 @@ int main()
 	auto hello = HelloWorldClass();
 	hello.writeHello();
 	auto x = hello.calculate(4, 5);
-	hello.showResult(x);
+	hello.showResultORnorSHOW(x);
 	hello.waitForAnyKey();
     return 0;
 }
